@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="header-1">
+            <div class="help">
+                <a href="">FAQs</a>
+                <span>|</span>
+                <a href="">Help</a>
+                <span>|</span>
+                <a href="">Support</a>
+
+            </div> 
+            <div class="social-header">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="header-2">
+            <div class="logo"><a href="">
+                <h1><span>E</span>Shopper</h1>
+            </a></div>           
+            <div class="search">                
+                <input type="search" name="search bar" id="navBarSearch" placeholder="Search for products">               
+                <i class="fa fa-search"></i>
+                       
+                          
+            </div>
+            <div class="like-cart">
+                <a href="">
+                    <i class="fas fa-heart "></i>0</a>
+                <a href="">
+                    <i class="fas fa-shopping-cart"></i>0</a>
+            </div>
+            
+        </div>
+        <div class="header-3">
+             <div class="categories-dropdown" >
+                <div>
+                    Categories <i class="fa-solid fa-chevron-down" onclick="openDropdown()"></i>
+                </div>
+                <ul id="dropdown-1">
+                    <li>
+                        Dresses <i class="fa-solid fa-chevron-down"  onclick="openDropdown1()"></i>
+                        <ul id="dresses-dropdown">
+                            <li>Men's Dresses</li>
+                            <li>Women's Dresses</li>
+                            <li>Baby's Dresses</li>
+                        </ul>
+                    </li>
+                    <li>Shirts</li>
+                    <li>Jeans</li>
+                    <li>Swimwear</li>
+                    <li>Sleepwear</li>
+                    <li>Sportswear</li>
+                    <li>Jumpsuits</li>
+                    <li>Blazers</li>
+                    <li>Jackets</li>
+                    <li>Shoes</li>
+                </ul>
+            </div>
+            <div class="navbar-super">
+            <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="detail.html">Shop Detail</a></li>
+                        <li class="pages-dropdown">Pages <i class="fa-solid fa-chevron-down"></i>
+                            <div>
+                                <ul>
+                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                    
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                   
+
+                </nav>
+        </div>
+        </div>
+        <div class="header-4">
+            <div class="logo"><a href="">
+                <h1><span>E</span>Shopper</h1>
+            </a></div>
+            
+            <i class="fa-solid fa-bars" id="hamburger-menu" onclick="openham()"></i>
+
+            
+
+
+        </div>
+        <div  id="hamburger-dropdown">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="detail.html">Shop Detail</a></li>
+                        <li class="ham-pages">Pages <i class="fa-solid fa-chevron-down"></i>
+                            <div>
+                                <ul>
+                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </div>
+
+
+    </header>
+    <div class=" hero">
+        <div class="hero-t1">
+            SHOP DETAILS
+        </div>
+        <div class="breadcrums">
+            <a href="index.html">Home</a>-Shop Detail
+        </div>
+    </div>
+    <main class="detail-main">
+    <div class="product-details">
+
+      <div class="single-carousel shop-detail-carousel">
+        <div class="single-carousel-track">        </div>
+
+        <div id="prev"><i class="fa-solid fa-chevron-left" ></i></div>
+        <div id="next"><i class="fa-solid fa-chevron-right" ></i></div>
+      </div>
+
+      <div class="product-information">
+        <h1>Colorful Stylish Shirt</h1>
+        <p class="star-rating rating-prod-info">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          
+        </p>
+        <h2></h2>
+        <p class="filler-text-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum dolore animi
+          placeat. Odio doloribus impedit ab, quis quaerat amet veritatis quas. Distinctio, molestias porro eveniet
+          fugit
+          alias deleniti quod qui nostrum optio ex sequi, at fugiat, quos quidem repellendus hic nesciunt rerum itaque
+          beatae voluptatibus. Recusandae quibusdam sunt officiis?</p>
+        <div class="size-options">
+          <p>Sizes: </p>
+          <form>
+            
+          </form>
+        </div>
+
+        <div class="color-options">
+          <p>Colors: </p>
+          <form>
+            
+          </form>
+        </div>
+
+        <div class="horizontal-buttons">
+          <div class="quantity-counter counter-detail">
+            <button id="minus"><i class="fa-solid fa-minus"></i></button>
+            <input type="text" value="1" name="quantity" id="quantityCounter">
+            <button id="plus"><i class="fa-solid fa-plus"></i></button>
+        </div>
+          <button class="add_to"><i class="fa-solid fa-shopping-cart"></i> Add To Cart</button>
+        </div>
+        <p class="icon">Share on: <i class="fa-brands fa-facebook-f"></i></a>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+        </p>
+      </div>
+    </div>
+
+    <div class="additional-info">
+      <nav class="additional-info-nav">
+        <ul>
+          <li id="addInfo1" onclick="openInfoCard(this.id)">Description</li>
+          <li id="addInfo2" onclick="openInfoCard(this.id)">Information</li>
+          <li id="addInfo3" onclick="openInfoCard(this.id)">Reviews</li>
+        </ul>
+      </nav>
+
+      <div class="additional-info-container">
+        <div class="additional-info-description add-info-card">
+          <h2>Product Description</h2>
+          <p style="font-size: 1.2rem; color: gray;">
+            Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo
+            dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et,
+            lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod.
+            Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus
+            diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd
+            invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.
+          </p>
+          <br>
+          <p style="font-size: 1.2rem; color: gray;">
+            Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem
+            dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum
+            lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata
+            justo et amet magna et.
+          </p>
+        </div>
+
+        <div class="additional-info-information add-info-card">
+          <h2>Additional Information</h2>
+          <p style="font-size: 1.2rem;">
+            Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo
+            dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et,
+            lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod.
+            Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus
+            diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd
+            invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.
+          </p>
+          <br>
+          <div class="add-info-lists">
+            <ul style="font-size: 1.2rem;">
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+            </ul>
+            <ul style="font-size: 1.2rem;">
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+              <li>Sit erat duo lorem duo ea consetetur, et eirmod takimata. </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="additional-info-reviews add-info-card">
+         <div class="review-flex-container">
+  <div class="reviews">
+    <h2 id="review-count">0 reviews for "<span id="product-name"></span>"</h2>
+    <div id="reviews-container">
+      <!-- Reviews will be inserted here by JS -->
+    </div>
+  </div>
+
+  <div class="review-form">
+    <h2>Leave a review</h2>
+    <p style="font-size: 0.8rem;">Your email address will not be published. Required fields are marked *</p>
+
+    <div>
+      <div>Your Rating * :</div>
+      <p class="star-rating" id="rating-stars">
+        <i class="fa-regular fa-star" data-rating="1"></i>
+        <i class="fa-regular fa-star" data-rating="2"></i>
+        <i class="fa-regular fa-star" data-rating="3"></i>
+        <i class="fa-regular fa-star" data-rating="4"></i>
+        <i class="fa-regular fa-star" data-rating="5"></i>
+      </p>
+    </div>
+
+    <form id="review-form">
+      <label for="reviewBox">Your Review *</label>
+      <textarea name="review" id="reviewBox" required></textarea>
+      <label for="reviewName">Your Name *</label>
+      <input type="text" name="name" id="reviewName" required>
+      <label for="reviewEmail">Your Email *</label>
+      <input type="email" name="email" id="reviewEmail" required>
+      <input type="submit" id="submitReview" value="Submit Review">
+    </form>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <div class="slider-detail">
+        <h2 class="center-text">You May Also Like</h2>
+
+       <div class="img-belt">
+
+        <!--  -->
+       </div>
+    </div>
+    
+
+    
+     <footer>
+        <div class="footer-upper">
+            <div class="about-company">
+                <h1 class="logo"><span>E</span>Shopper</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam assumenda voluptas aut rerum accusamus nesciunt.</p>
+                <ul class="footer-icon">
+                    <li><i class="fa-solid fa-location-dot"></i>123 Street, New York, USA</li>
+                    <li><i class="fa-solid fa-envelope"></i>info@example.com</li>
+                    <li><i class="fa-solid fa-phone"></i>+012 345 67890</li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="shop.html"><i class="fa-solid fa-chevron-right"></i> Shop</a></li>
+                        <li><a href="detail.html"><i class="fa-solid fa-chevron-right"></i> Shop Detail</a></li>
+                        <li><a href="cart.html"><i class="fa-solid fa-chevron-right"></i> Shopping Cart</a></li>
+                        <li><a href="checkout.html"><i class="fa-solid fa-chevron-right"></i> Checkout</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="shop.html"><i class="fa-solid fa-chevron-right"></i> Shop</a></li>
+                        <li><a href="detail.html"><i class="fa-solid fa-chevron-right"></i> Shop Detail</a></li>
+                        <li><a href="cart.html"><i class="fa-solid fa-chevron-right"></i> Shopping Cart</a></li>
+                        <li><a href="checkout.html"><i class="fa-solid fa-chevron-right"></i> Checkout</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+    <h2>Newsletter</h2>
+    <form id="newsletterForm">
+    <input type="text" id="nameInput" placeholder="Your Name">
+    <input type="email" id="newsletterEmailInput" placeholder="Your Email">
+    <button type="button" id="newsletterSubmitBtn">Subscribe Now</button>
+</form>
+<div id="newsletterStatus"></div>
+</div>
+            </div>
+        </div>
+
+        <div class="split-line"></div>
+
+        <div class="footer-lower">
+            <div>
+                <p>© <strong>Your Site Name.</strong> All Rights Reserved. Designed by <strong>HTML Codex</strong></p>
+                <p>Distributed By <a href="#">ThemeWagon</a></p>
+            </div>
+
+            <img src="img/payments (1).png" alt="payment">
+        </div>
+         
+    </footer>
+        <button class="back-to-top"><i class="fa-solid fa-angles-up fa-sharp"></i></button>
+
+
+    <script src="detail.js"></script> 
+    
+</body>
+</html>

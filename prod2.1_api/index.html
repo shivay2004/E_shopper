@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="header-1">
+        <div class="help">
+          <a href="">FAQs</a>
+          <span>|</span>
+          <a href="">Help</a>
+          <span>|</span>
+          <a href="">Support</a>
+        </div>
+        <div class="social-header">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="header-2">
+        <div class="logo">
+          <a href="">
+            <h1><span>E</span>Shopper</h1>
+          </a>
+        </div>
+        <div class="search">
+          <input
+            type="search"
+            name="search bar"
+            id="navBarSearch"
+            placeholder="Search for products"
+          />
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="like-cart">
+          <a href=""> <i class="fas fa-heart"></i>0</a>
+          <a href=""> <i class="fas fa-shopping-cart"></i>0</a>
+        </div>
+      </div>
+      <div class="header-3">
+        <div class="categories-dropdown">
+          <div>
+            Categories
+            <i class="fa-solid fa-chevron-down" onclick="openDropdown()"></i>
+          </div>
+          <ul id="dropdown-1">
+            <li>
+              Dresses
+              <i class="fa-solid fa-chevron-down" onclick="openDropdown1()"></i>
+              <ul id="dresses-dropdown">
+                <li>Men's Dresses</li>
+                <li>Women's Dresses</li>
+                <li>Baby's Dresses</li>
+              </ul>
+            </li>
+            <li>Shirts</li>
+            <li>Jeans</li>
+            <li>Swimwear</li>
+            <li>Sleepwear</li>
+            <li>Sportswear</li>
+            <li>Jumpsuits</li>
+            <li>Blazers</li>
+            <li>Jackets</li>
+            <li>Shoes</li>
+          </ul>
+        </div>
+        <div class="navbar-super">
+          <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="detail.html">Shop Detail</a></li>
+              <li class="pages-dropdown">
+                Pages <i class="fa-solid fa-chevron-down"></i>
+                <div>
+                  <ul>
+                    <li><a href="cart.html">Shopping Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header-4">
+        <div class="logo">
+          <a href="">
+            <h1><span>E</span>Shopper</h1>
+          </a>
+        </div>
+
+        <i class="fa-solid fa-bars" id="hamburger-menu" onclick="openham()"></i>
+      </div>
+      <div id="hamburger-dropdown">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="detail.html">Shop Detail</a></li>
+          <li class="ham-pages">
+            Pages <i class="fa-solid fa-chevron-down"></i>
+            <div>
+              <ul>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="header-slider">
+      <div class="header-slider-images">
+        <div class="hs-container">
+          <img src="img/carousel-1.jpg" alt="img" />
+          <div class="hs-overlay">
+            <h2>10% off on your first order</h2>
+            <h1>Reasonable Price</h1>
+            <button>Shop Now</button>
+          </div>
+        </div>
+        <div class="hs-container">
+          <img src="img/carousel-2.jpg" alt="img" />
+          <div class="hs-overlay">
+            <h2>10% off on your first order</h2>
+            <h1>Fashionable Dress</h1>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="header-slider-button button-left">
+        <i class="fa-solid fa-chevron-left" id="prev" onclick="prevSlide()"></i>
+      </button>
+      <button class="header-slider-button button-right">
+        <i
+          class="fa-solid fa-chevron-right"
+          id="next"
+          onclick="nextSlide()"
+        ></i>
+      </button>
+    </div>
+
+    <div class="quality">
+      <div class="quality-card">
+        <h1 class="fa fa-check"></h1>
+        <h5>Quality Product</h5>
+      </div>
+      <div class="quality-card">
+        <h1 class="fa fa-shipping-fast"></h1>
+        <h5>Free Shipping</h5>
+      </div>
+      <div class="quality-card">
+        <h1 class="fas fa-exchange-alt"></h1>
+        <h5>14-Day Return</h5>
+      </div>
+      <div class="quality-card">
+        <h1 class="fa fa-phone-volume"></h1>
+        <h5>24/7 Support</h5>
+      </div>
+    </div>
+    <div class="img-super1">
+      <div class="img-cont">
+        <div class="img-card">
+          <p>15 Products</p>
+          <div class="img-box"><img src="img/cat-3.jpg" /></div>
+          <h5>Baby's dresses</h5>
+        </div>
+        <div class="img-card">
+          <p>15 Products</p>
+          <div class="img-box"><img src="img/cat-3.jpg" /></div>
+          <h5>Baby's dresses</h5>
+        </div>
+        <div class="img-card">
+          <p>15 Products</p>
+          <div class="img-box"><img src="img/cat-3.jpg" /></div>
+          <h5>Baby's dresses</h5>
+        </div>
+        <div class="img-card">
+          <p>15 Products</p>
+          <div class="img-box"><img src="img/cat-3.jpg" /></div>
+          <h5>Baby's dresses</h5>
+        </div>
+        <div class="img-card">
+          <p>15 Products</p>
+          <div class="img-box"><img src="img/cat-3.jpg" /></div>
+          <h5>Baby's dresses</h5>
+        </div>
+        <div class="img-card">
+          <p>15 Products</p>
+          <div class="img-box"><img src="img/cat-3.jpg" /></div>
+          <h5>Baby's dresses</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer">
+      <div>
+        <img src="img/offer-1.png" />
+        <div class="offer-card1">
+          <h5>20% off the all order</h5>
+          <h1>Spring Collection</h1>
+          <a href="">Shop Now</a>
+        </div>
+      </div>
+      <div>
+        <img src="img/offer-2.png" />
+        <div class="offer-card2">
+          <h5>20% off the all order</h5>
+          <h1>Winter Collection</h1>
+          <a href="">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="center-text">Trandy Products</h2>
+      <div class="img-cont2">
+        <!-- input from js -->
+      </div>
+    </div>
+
+    <div class="updated">
+      <div class="updated-text">
+        <h2 class="center-text">Stay Updated</h2>
+        <p>
+          Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam
+          labore at justo ipsum eirmod duo labore labore.
+        </p>
+      </div>
+      <form id="subscribeForm">
+        <div class="email">
+          <input
+            type="email"
+            id="emailInput"
+            placeholder="Email Goes Here"
+            name="email"
+          />
+          <button type="button" class="button1" id="submitBtn">
+            Subscribe
+          </button>
+        </div>
+      </form>
+      <div id="emailStatus" style="margin-top: 10px"></div>
+    </div>
+
+    <div>
+      <h2 class="center-text">just arrived</h2>
+      <div class="img-cont2">
+        <!-- input from js -->
+      </div>
+    </div>
+
+    <div class="vendor">
+      <img src="img/vendor-1.jpg" class="slide" alt="" />
+      <img src="img/vendor-2.jpg" class="slide" alt="" />
+      <img src="img/vendor-3.jpg" class="slide" alt="" />
+      <img src="img/vendor-4.jpg" class="slide" alt="" />
+      <img src="img/vendor-5.jpg" class="slide" alt="" />
+      <img src="img/vendor-6.jpg" class="slide" alt="" />
+      <img src="img/vendor-7.jpg" class="slide" alt="" />
+      <img src="img/vendor-8.jpg" class="slide" alt="" />
+      <img src="img/vendor-1.jpg" class="slide" alt="" />
+      <img src="img/vendor-2.jpg" class="slide" alt="" />
+      <img src="img/vendor-3.jpg" class="slide" alt="" />
+      <img src="img/vendor-4.jpg" class="slide" alt="" />
+      <img src="img/vendor-5.jpg" class="slide" alt="" />
+      <img src="img/vendor-6.jpg" class="slide" alt="" />
+      <img src="img/vendor-7.jpg" class="slide" alt="" />
+      <img src="img/vendor-8.jpg" class="slide" alt="" />
+    </div>
+    <footer>
+      <div class="footer-upper">
+        <div class="about-company">
+          <h1 class="logo"><span>E</span>Shopper</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+            assumenda voluptas aut rerum accusamus nesciunt.
+          </p>
+          <ul class="footer-icon">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>123 Street, New York, USA
+            </li>
+            <li><i class="fa-solid fa-envelope"></i>info@example.com</li>
+            <li><i class="fa-solid fa-phone"></i>+012 345 67890</li>
+          </ul>
+        </div>
+
+        <div class="footer-right">
+          <div class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li>
+                <a href="index.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="shop.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Shop</a
+                >
+              </li>
+              <li>
+                <a href="detail.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Shop Detail</a
+                >
+              </li>
+              <li>
+                <a href="cart.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Shopping Cart</a
+                >
+              </li>
+              <li>
+                <a href="checkout.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Checkout</a
+                >
+              </li>
+              <li>
+                <a href="contact.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li>
+                <a href="index.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="shop.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Shop</a
+                >
+              </li>
+              <li>
+                <a href="detail.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Shop Detail</a
+                >
+              </li>
+              <li>
+                <a href="cart.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Shopping Cart</a
+                >
+              </li>
+              <li>
+                <a href="checkout.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Checkout</a
+                >
+              </li>
+              <li>
+                <a href="contact.html"
+                  ><i class="fa-solid fa-chevron-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="newsletter">
+            <h2>Newsletter</h2>
+            <form id="newsletterForm">
+              <input type="text" id="nameInput" placeholder="Your Name" />
+              <input
+                type="email"
+                id="newsletterEmailInput"
+                placeholder="Your Email"
+              />
+              <button type="button" id="newsletterSubmitBtn">
+                Subscribe Now
+              </button>
+            </form>
+            <div id="newsletterStatus"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="split-line"></div>
+
+      <div class="footer-lower">
+        <div>
+          <p>
+            © <strong>Your Site Name.</strong> All Rights Reserved. Designed by
+            <strong>HTML Codex</strong>
+          </p>
+          <p>Distributed By <a href="#">ThemeWagon</a></p>
+        </div>
+
+        <img src="img/payments (1).png" alt="payment" />
+      </div>
+    </footer>
+    <button class="back-to-top">
+      <i class="fa-solid fa-angles-up fa-sharp"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

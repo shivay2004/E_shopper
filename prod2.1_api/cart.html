@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="header-1">
+            <div class="help">
+                <a href="">FAQs</a>
+                <span>|</span>
+                <a href="">Help</a>
+                <span>|</span>
+                <a href="">Support</a>
+
+            </div> 
+            <div class="social-header">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="header-2">
+            <div class="logo"><a href="">
+                <h1><span>E</span>Shopper</h1>
+            </a></div>           
+            <div class="search">                
+                <input type="search" name="search bar" id="navBarSearch" placeholder="Search for products">               
+                <i class="fa fa-search"></i>
+                       
+                          
+            </div>
+            <div class="like-cart">
+                <a href="">
+                    <i class="fas fa-heart "></i>0</a>
+                <a href="">
+                    <i class="fas fa-shopping-cart"></i>0</a>
+            </div>
+            
+        </div>
+        <div class="header-3">
+             <div class="categories-dropdown" >
+                <div>
+                    Categories <i class="fa-solid fa-chevron-down" onclick="openDropdown()"></i>
+                </div>
+                <ul id="dropdown-1">
+                    <li>
+                        Dresses <i class="fa-solid fa-chevron-down"  onclick="openDropdown1()"></i>
+                        <ul id="dresses-dropdown">
+                            <li>Men's Dresses</li>
+                            <li>Women's Dresses</li>
+                            <li>Baby's Dresses</li>
+                        </ul>
+                    </li>
+                    <li>Shirts</li>
+                    <li>Jeans</li>
+                    <li>Swimwear</li>
+                    <li>Sleepwear</li>
+                    <li>Sportswear</li>
+                    <li>Jumpsuits</li>
+                    <li>Blazers</li>
+                    <li>Jackets</li>
+                    <li>Shoes</li>
+                </ul>
+            </div>
+            <div class="navbar-super">
+            <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="detail.html">Shop Detail</a></li>
+                        <li class="pages-dropdown">Pages <i class="fa-solid fa-chevron-down"></i>
+                            <div>
+                                <ul>
+                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                    
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                   
+
+                </nav>
+        </div>
+        </div>
+        <div class="header-4">
+            <div class="logo"><a href="">
+                <h1><span>E</span>Shopper</h1>
+            </a></div>
+            
+            <i class="fa-solid fa-bars" id="hamburger-menu" onclick="openham()"></i>
+
+            
+
+
+        </div>
+        <div  id="hamburger-dropdown">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="detail.html">Shop Detail</a></li>
+                        <li class="ham-pages">Pages <i class="fa-solid fa-chevron-down"></i>
+                            <div>
+                                <ul>
+                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </div>
+
+
+    </header>
+    <div class=" hero">
+        <div class="hero-t1">
+            SHOPPING CART
+        </div>
+        <div class="breadcrums">
+            <a href="index.html">Home</a>-Shopping Cart 
+        </div>
+    </div>
+   <body>
+  <main class="cart-main">
+    <div class="cart-table-container">
+      <table class="cart-table">
+        <colgroup>
+          <col class="col-1">
+          <col class="col-2">
+          <col class="col-3">
+          <col class="col-4">
+          <col class="col-5">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Products</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items-container">
+          <!-- Cart items will be inserted here by JS -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="checkout-container">
+      <div class="coupon-box">
+        <input type="text" placeholder="Coupon Code">
+        <input type="button" value="Apply Coupon">
+      </div>
+      <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <div>
+          <div>Subtotal <span>$0</span></div>
+          <div>Shipping <span>$10</span></div>
+        </div>
+        <div>
+          <div id="total">Total <span>$10</span></div>
+          <button class="pink-background">Proceed To Checkout</button>
+        </div>
+      </div>
+    </div>
+  </main>
+ 
+    
+
+    
+     <footer>
+        <div class="footer-upper">
+            <div class="about-company">
+                <h1 class="logo"><span>E</span>Shopper</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam assumenda voluptas aut rerum accusamus nesciunt.</p>
+                <ul class="footer-icon">
+                    <li><i class="fa-solid fa-location-dot"></i>123 Street, New York, USA</li>
+                    <li><i class="fa-solid fa-envelope"></i>info@example.com</li>
+                    <li><i class="fa-solid fa-phone"></i>+012 345 67890</li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="shop.html"><i class="fa-solid fa-chevron-right"></i> Shop</a></li>
+                        <li><a href="detail.html"><i class="fa-solid fa-chevron-right"></i> Shop Detail</a></li>
+                        <li><a href="cart.html"><i class="fa-solid fa-chevron-right"></i> Shopping Cart</a></li>
+                        <li><a href="checkout.html"><i class="fa-solid fa-chevron-right"></i> Checkout</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="shop.html"><i class="fa-solid fa-chevron-right"></i> Shop</a></li>
+                        <li><a href="detail.html"><i class="fa-solid fa-chevron-right"></i> Shop Detail</a></li>
+                        <li><a href="cart.html"><i class="fa-solid fa-chevron-right"></i> Shopping Cart</a></li>
+                        <li><a href="checkout.html"><i class="fa-solid fa-chevron-right"></i> Checkout</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+    <h2>Newsletter</h2>
+    <form id="newsletterForm">
+    <input type="text" id="nameInput" placeholder="Your Name">
+    <input type="email" id="newsletterEmailInput" placeholder="Your Email">
+    <button type="button" id="newsletterSubmitBtn">Subscribe Now</button>
+</form>
+<div id="newsletterStatus"></div>
+</div>
+            </div>
+        </div>
+
+        <div class="split-line"></div>
+
+        <div class="footer-lower">
+            <div>
+                <p>© <strong>Your Site Name.</strong> All Rights Reserved. Designed by <strong>HTML Codex</strong></p>
+                <p>Distributed By <a href="#">ThemeWagon</a></p>
+            </div>
+
+            <img src="img/payments (1).png" alt="payment">
+        </div>
+         
+    </footer>
+        <button class="back-to-top"><i class="fa-solid fa-angles-up fa-sharp"></i></button>
+
+
+
+    <script src="cart.js"></script> 
+   
+</body>
+</html>

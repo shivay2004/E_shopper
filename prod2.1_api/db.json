@@ -1,0 +1,354 @@
+{
+  "prod-card": [
+    {
+      "id": 1,
+      "name": "Classic Red Shirt",
+      "image": "img/product-1.jpg",
+      "extraimages": [
+        "img/product-1.jpg",
+        "img/product-1.jpg",
+        "img/product-1.jpg"
+      ],
+      "price": 89.0,
+      "original_price": 120.0,
+      "sizes": ["S", "M"],
+      "colors": ["red", "blue"]
+    },
+    {
+      "id": 2,
+      "name": "Summer Breeze Tee",
+      "image": "img/product-2.jpg",
+      "extraimages": [
+        "img/product-2.jpg",
+        "img/product-2.jpg",
+        "img/product-2.jpg"
+      ],
+      "price": 135.0,
+      "original_price": 170.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 3,
+      "name": "Urban Black Polo",
+      "image": "img/product-3.jpg",
+      "extraimages": [
+        "img/product-3.jpg",
+        "img/product-3.jpg",
+        "img/product-3.jpg"
+      ],
+      "price": 55.0,
+      "original_price": 75.0,
+      "sizes": ["M", "L"],
+      "colors": ["blue", "black"]
+    },
+    {
+      "id": 4,
+      "name": "Fresh Green Henley",
+      "image": "img/product-4.jpg",
+      "extraimages": [
+        "img/product-4.jpg",
+        "img/product-4.jpg",
+        "img/product-4.jpg"
+      ],
+      "price": 165.0,
+      "original_price": 210.0,
+      "sizes": ["S", "L"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 5,
+      "name": "White Cotton Crew",
+      "image": "img/product-5.jpg",
+      "extraimages": [
+        "img/product-5.jpg",
+        "img/product-5.jpg",
+        "img/product-5.jpg"
+      ],
+      "price": 119.0,
+      "original_price": 135.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 6,
+      "name": "Green V-Neck",
+      "image": "img/product-6.jpg",
+      "extraimages": [
+        "img/product-6.jpg",
+        "img/product-6.jpg",
+        "img/product-6.jpg"
+      ],
+      "price": 112.0,
+      "original_price": 128.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 7,
+      "name": "Essential White Tee",
+      "image": "img/product-7.jpg",
+      "extraimages": [
+        "img/product-7.jpg",
+        "img/product-7.jpg",
+        "img/product-7.jpg"
+      ],
+      "price": 122.0,
+      "original_price": 140.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 8,
+      "name": "Modern Green Shirt",
+      "image": "img/product-8.jpg",
+      "extraimages": [
+        "img/product-8.jpg",
+        "img/product-8.jpg",
+        "img/product-8.jpg"
+      ],
+      "price": 130.0,
+      "original_price": 155.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 9,
+      "name": "Bold Blue Shirt",
+      "image": "img/product-1.jpg",
+      "extraimages": [
+        "img/product-1.jpg",
+        "img/product-1.jpg",
+        "img/product-1.jpg"
+      ],
+      "price": 99.0,
+      "original_price": 123.0,
+      "sizes": ["S", "M"],
+      "colors": ["red", "blue"]
+    },
+    {
+      "id": 10,
+      "name": "Green Active Tee",
+      "image": "img/product-2.jpg",
+      "extraimages": [
+        "img/product-2.jpg",
+        "img/product-2.jpg",
+        "img/product-2.jpg"
+      ],
+      "price": 140.0,
+      "original_price": 160.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 11,
+      "name": "Blackout Polo",
+      "image": "img/product-3.jpg",
+      "extraimages": [
+        "img/product-3.jpg",
+        "img/product-3.jpg",
+        "img/product-3.jpg"
+      ],
+      "price": 60.0,
+      "original_price": 80.0,
+      "sizes": ["M", "L"],
+      "colors": ["blue", "black"]
+    },
+    {
+      "id": 12,
+      "name": "Leafy Green Shirt",
+      "image": "img/product-4.jpg",
+      "extraimages": [
+        "img/product-4.jpg",
+        "img/product-4.jpg",
+        "img/product-4.jpg"
+      ],
+      "price": 155.0,
+      "original_price": 195.0,
+      "sizes": ["S", "L"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 13,
+      "name": "Cotton White Tee",
+      "image": "img/product-5.jpg",
+      "extraimages": [
+        "img/product-5.jpg",
+        "img/product-5.jpg",
+        "img/product-5.jpg"
+      ],
+      "price": 124.0,
+      "original_price": 140.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 14,
+      "name": "Mint Green Crew",
+      "image": "img/product-6.jpg",
+      "extraimages": [
+        "img/product-6.jpg",
+        "img/product-6.jpg",
+        "img/product-6.jpg"
+      ],
+      "price": 127.0,
+      "original_price": 150.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 15,
+      "name": "Snow White Shirt",
+      "image": "img/product-7.jpg",
+      "extraimages": [
+        "img/product-7.jpg",
+        "img/product-7.jpg",
+        "img/product-7.jpg"
+      ],
+      "price": 135.0,
+      "original_price": 155.0,
+      "sizes": ["XS", "S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 16,
+      "name": "Trendy Skirt",
+      "image": "img/product-1.jpg",
+      "extraimages": [
+        "img/product-1.jpg",
+        "img/product-1.jpg",
+        "img/product-1.jpg"
+      ],
+      "price": 99.0,
+      "original_price": 149.0,
+      "sizes": ["M", "XS"],
+      "colors": ["white"]
+    },
+    {
+      "id": 17,
+      "name": "Elegant Blouse",
+      "image": "img/product-2.jpg",
+      "extraimages": [
+        "img/product-2.jpg",
+        "img/product-2.jpg",
+        "img/product-2.jpg"
+      ],
+      "price": 49.0,
+      "original_price": 79.0,
+      "sizes": ["XS"],
+      "colors": ["white"]
+    },
+    {
+      "id": 18,
+      "name": "Classic Polo Shirt",
+      "image": "img/product-3.jpg",
+      "extraimages": [
+        "img/product-3.jpg",
+        "img/product-3.jpg",
+        "img/product-3.jpg"
+      ],
+      "price": 175.0,
+      "original_price": 225.0,
+      "sizes": ["XS"],
+      "colors": ["black", "green", "blue"]
+    },
+    {
+      "id": 19,
+      "name": "Casual Hoodie",
+      "image": "img/product-4.jpg",
+      "extraimages": [
+        "img/product-4.jpg",
+        "img/product-4.jpg",
+        "img/product-4.jpg"
+      ],
+      "price": 185.0,
+      "original_price": 235.0,
+      "sizes": ["XL", "M", "S"],
+      "colors": ["red", "blue"]
+    },
+    {
+      "id": 20,
+      "name": "Elegant Red Blouse",
+      "image": "img/product-5.jpg",
+      "extraimages": [
+        "img/product-5.jpg",
+        "img/product-5.jpg",
+        "img/product-5.jpg"
+      ],
+      "price": 85.0,
+      "original_price": 105.0,
+      "sizes": ["L", "XL", "M"],
+      "colors": ["white", "red"]
+    },
+    {
+      "id": 21,
+      "name": "White Zip Hoodie",
+      "image": "img/product-6.jpg",
+      "extraimages": [
+        "img/product-6.jpg",
+        "img/product-6.jpg",
+        "img/product-6.jpg"
+      ],
+      "price": 135.0,
+      "original_price": 155.0,
+      "sizes": ["XS"],
+      "colors": ["white"]
+    },
+    {
+      "id": 22,
+      "name": "Slim Fit Chinos",
+      "image": "img/product-7.jpg",
+      "extraimages": [
+        "img/product-7.jpg",
+        "img/product-7.jpg",
+        "img/product-7.jpg"
+      ],
+      "price": 250.0,
+      "original_price": 270.0,
+      "sizes": ["S"],
+      "colors": ["white", "green"]
+    },
+    {
+      "id": 23,
+      "name": "Grey Casual Hoodie",
+      "image": "img/product-2.jpg",
+      "extraimages": [
+        "img/product-2.jpg",
+        "img/product-2.jpg",
+        "img/product-2.jpg"
+      ],
+      "price": 180.0,
+      "original_price": 210.0,
+      "sizes": ["XL", "S", "L"],
+      "colors": ["white"]
+    },
+    {
+      "id": 24,
+      "name": "Sporty Tank Top",
+      "image": "img/product-1.jpg",
+      "extraimages": [
+        "img/product-1.jpg",
+        "img/product-1.jpg",
+        "img/product-1.jpg"
+      ],
+      "price": 225.0,
+      "original_price": 275.0,
+      "sizes": ["L", "XL", "XS"],
+      "colors": ["blue"]
+    },
+    {
+      "id": 25,
+      "name": "Modern Fit Tee",
+      "image": "img/product-5.jpg",
+      "extraimages": [
+        "img/product-5.jpg",
+        "img/product-5.jpg",
+        "img/product-5.jpg"
+      ],
+      "price": 145.0,
+      "original_price": 185.0,
+      "sizes": ["L"],
+      "colors": ["blue"]
+    }
+  ]
+}
