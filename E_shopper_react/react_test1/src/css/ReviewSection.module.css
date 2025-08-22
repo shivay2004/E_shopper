@@ -1,0 +1,101 @@
+.reviewSection {
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.reviewList {
+  width: 50%;
+}
+
+.reviewList h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.singleReview {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: gray;
+}
+
+.singleReview img {
+  width: 50px;
+  height: 50px;
+}
+
+.singleReview strong {
+  color: #222;
+}
+
+.starRating {
+  margin: 0.3rem 0;
+}
+
+.starRating i {
+  color: #d29b94;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.starRating i.fa-regular {
+  color: lightgray;
+}
+
+.reviewForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewForm h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.reviewForm p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.reviewForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewForm label {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.reviewForm input,
+.reviewForm textarea {
+  margin-top: 0.5rem;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.reviewForm textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.reviewForm input[type="submit"] {
+  margin-top: 1rem;
+  background-color: #d29b94;
+
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+.reviewForm input[type="submit"]:hover {
+  background-color: #c2827a;
+}

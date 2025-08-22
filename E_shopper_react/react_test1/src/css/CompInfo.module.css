@@ -1,0 +1,5 @@
+.footericon i {
+  color: var(--accent-color);
+  padding-right: 0.5rem;
+  margin-bottom: 1rem;
+}

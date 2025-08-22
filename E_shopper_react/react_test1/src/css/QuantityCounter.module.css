@@ -1,0 +1,41 @@
+.horizontalButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantityCounter {
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content !important;
+}
+
+.quantityCounter button {
+  background-color: #d29b94;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.quantityCounter button i {
+  color: black;
+}
+.quantityCounter input {
+  background-color: #edf2ff;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.counterDetail button {
+  width: 40px;
+  height: 40px;
+}
+
+.counterDetail input {
+  width: 60px;
+  height: 40px;
+}

@@ -1,0 +1,77 @@
+.dropdown {
+  display: none;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown li {
+  margin-bottom: 10px;
+}
+
+.hamPages div {
+  display: none;
+  padding: 1rem;
+}
+
+.hamPages:hover div {
+  display: block;
+}
+.navBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.welcome {
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authModal {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  min-width: 300px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.authActions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.authModal input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 0.5rem;
+}

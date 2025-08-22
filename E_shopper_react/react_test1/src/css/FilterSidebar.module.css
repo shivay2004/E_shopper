@@ -1,0 +1,58 @@
+.sidebar {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: sans-serif;
+}
+@media (max-width: 900px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.section {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2rem;
+}
+
+.section h5 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.section label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #444;
+  padding: 0.3rem 0;
+}
+
+.section input[type="checkbox"] {
+  accent-color: #d29b94;
+  margin-right: 0.6rem;
+  transform: scale(1.1);
+}
+
+.section label span {
+  padding: 2px 8px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  color: #555;
+  border: 1px solid #eee;
+}
+
+.section label:first-child {
+  font-weight: 600;
+  color: #cb857c;
+}
+
+.section label:first-child input[type="checkbox"]:checked + span {
+  color: white;
+  background: #cb857c;
+}

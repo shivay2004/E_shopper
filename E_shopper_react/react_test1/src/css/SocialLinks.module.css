@@ -1,0 +1,8 @@
+.socialHeader {
+  display: flex;
+  gap: 10px;
+}
+.socialHeader a {
+  color: var(--text-1);
+  font-size: 1rem;
+}

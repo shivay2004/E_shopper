@@ -1,0 +1,26 @@
+.hero {
+  width: 100%;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+  background-color: #edf1ff;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.hero p a {
+  color: #d29b94;
+}
+
+.hero span {
+  font-weight: bold;
+}

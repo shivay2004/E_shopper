@@ -1,0 +1,39 @@
+.sliderContainer {
+  position: relative;
+  width: 40%;
+  overflow: hidden;
+}
+
+.sliderTrack {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prevBtn {
+  left: 10px;
+}
+
+.nextBtn {
+  right: 10px;
+}
+@media (max-width: 900px) {
+  .sliderContainer {
+    width: 100%;
+  }
+}

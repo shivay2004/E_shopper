@@ -1,0 +1,153 @@
+.cartMain {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 5rem auto;
+  padding: 0 1rem;
+}
+@media (max-width: 900px) {
+  .cartMain {
+    flex-direction: column;
+  }
+}
+.cartTableContainer {
+  flex: 1 1 70%;
+}
+
+.table,
+th,
+td {
+  border: 1px solid #edf2ff;
+  border-collapse: collapse;
+}
+
+.table {
+  table-layout: auto;
+  width: 100%;
+}
+
+th {
+  background-color: #edf2ff;
+  font-weight: bolder;
+  text-align: center;
+}
+
+tr {
+  height: 80px;
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.productCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableImg {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+.checkoutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1 1 30%;
+}
+
+.couponBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.couponBox input {
+  height: 40px;
+  padding: 10px;
+}
+
+.couponBox input[type="text"] {
+  border: 1px solid #dadada;
+  outline: none;
+  flex: 1 1 auto;
+}
+
+.couponBox input[type="button"] {
+  border: none;
+  outline: none;
+  background-color: #d29b94;
+  width: 120px;
+}
+
+.couponBox input[type="button"]:hover {
+  background-color: #cb857c;
+  color: white;
+}
+
+.cartSummary {
+  width: 100%;
+}
+
+.cartSummary h2 {
+  background-color: #edf2ff;
+  padding: 10px 20px;
+}
+
+.cartSummaryBox {
+  border: 1px solid #edf2ff;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.cartSummaryBox > div {
+  padding: 20px 10px;
+}
+
+.summaryTotal {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.cartSummary span {
+  float: right;
+}
+
+.pinkBackground {
+  margin: 20px 10px;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  background-color: #d29b94;
+}
+
+.pinkBackground:hover {
+  background-color: #cb857c;
+  color: white;
+}
+
+.counterCart {
+  margin: 0 10px;
+}
+
+.counterCart button {
+  width: 30px;
+  height: 30px;
+}
+
+.counterCart input {
+  width: 40px;
+  height: 30px;
+}
+
+.removeButton {
+  background-color: #d29b94;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+}

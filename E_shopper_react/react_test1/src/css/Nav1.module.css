@@ -1,0 +1,111 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.navLink:hover {
+  color: #d29b94;
+}
+
+.activeLink {
+  color: #d29b94;
+}
+.navbar > ul {
+  display: flex;
+}
+
+.navbar > ul > li {
+  margin-left: 10px;
+}
+
+.pagesdrop {
+  position: relative;
+}
+
+.pagesdrop div {
+  width: 150px;
+  position: absolute;
+  display: none;
+  left: -10px;
+  background-color: white;
+  padding: 10px;
+  padding-top: 2.5rem;
+  padding-bottom: 0;
+}
+.pagesdrop div li {
+  padding-bottom: 10px;
+}
+.pagesdrop:hover div {
+  display: block;
+  z-index: 10;
+}
+
+/* Auth Styles */
+.navAuth {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navBtn {
+  all: unset;
+  cursor: pointer;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.welcome {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+/* Modals */
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authModal {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  min-width: 300px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.authModal input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.authActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+}

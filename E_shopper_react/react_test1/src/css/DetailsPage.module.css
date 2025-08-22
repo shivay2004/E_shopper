@@ -1,0 +1,17 @@
+.detailMain {
+  margin: 5rem auto;
+  padding: 0 2rem;
+}
+
+.productDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 900px) {
+  .productDetails {
+    flex-direction: column;
+  }
+}

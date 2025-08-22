@@ -1,0 +1,124 @@
+.checkoutMain {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 5rem auto;
+  padding: 0 4rem;
+}
+@media (max-width: 900px) {
+  .checkoutMain {
+    flex-direction: column;
+  }
+}
+.addressForms {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 70%;
+}
+
+.addressForm h2 {
+  margin-bottom: 1.5rem;
+}
+
+.addressForm form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.addressForm form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formElement,
+.addressFormCheckbox {
+  font-size: 1.2rem;
+}
+
+.addressFormCheckbox {
+  margin: 10px 0;
+}
+
+.formElement label,
+.addressFormCheckbox label {
+  color: gray;
+}
+
+.formElement input,
+.formElement select {
+  color: #5d5d5d;
+  height: 30px;
+  border: 1px solid #dadada;
+  padding: 5px;
+}
+
+.formElement select {
+  background-color: white;
+}
+
+.checkoutSlip {
+  flex: 1 1 30%;
+}
+
+.checkoutSlip h2 {
+  background-color: #edf2ff;
+  padding: 10px 20px;
+}
+
+.checkoutSlip h3 {
+  padding: 10px 20px;
+}
+
+.checkoutSlip span {
+  float: right;
+}
+
+.orderTotal > div,
+.paymentOptions > div {
+  border: 1px solid #edf2ff;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.orderTotal > div > div {
+  padding: 5px 0;
+}
+
+.paymentOptions form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 20px;
+}
+
+.paymentOptions button {
+  margin: 20px 10px;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  background-color: #d29b94;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.orderprice {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.orderItemRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 1.1rem;
+}
+
+.orderItemRow:last-child {
+  border-bottom: none;
+}

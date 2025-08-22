@@ -1,0 +1,91 @@
+.header1 {
+  display: flex;
+  background-color: #edf1ff;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.help a {
+  color: black;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.help a:hover {
+  text-decoration: underline;
+}
+.help span {
+  color: #6c757d;
+}
+@media (max-width: 900px) {
+  .header1 {
+    justify-content: center;
+  }
+  .help {
+    display: none;
+  }
+}
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+}
+.search input {
+  border: 1px solid #edf2ff;
+  padding: 10px;
+  width: 500px;
+}
+.search i {
+  display: flex;
+  align-items: center;
+  color: var(--accent-color);
+  border: 1px solid #edf2ff;
+  padding: 10px;
+  background-color: white;
+}
+.likeCart a {
+  text-decoration: none;
+  color: var(--text-2);
+  border: 1px solid #edf2ff;
+  padding: 8px 10px;
+}
+.likeCart i {
+  color: var(--accent-color);
+  padding-right: 10px;
+}
+.header3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.navbarsuper {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+.ham {
+  display: none;
+}
+.logo1 {
+  display: none;
+}
+@media (max-width: 900px) {
+  .ham {
+    display: block;
+  }
+  .header2 > :first-child {
+    display: none;
+  }
+  .logo1 {
+    display: block;
+  }
+}
